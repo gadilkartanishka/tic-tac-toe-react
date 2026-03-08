@@ -1,0 +1,27 @@
+.status {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.board-row {
+  display: flex;
+}
+
+.square {
+  width: 90px;
+  height: 90px;
+  font-size: 2rem;
+  font-weight: 700;
+  font-family: 'Inter', sans-serif;
+  color: #222;
+  background: #fff;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  transition: background 0.15s ease;
+}
+
+.square:hover {
+  background: #eee;
+}
