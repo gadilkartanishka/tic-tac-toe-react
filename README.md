@@ -1,16 +1,64 @@
-# React + Vite
+Tic Tac Toe (React)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React-based implementation of the classic **Tic Tac Toe game**, built using **Vite** for fast development and optimized builds.
 
-Currently, two official plugins are available:
+This project demonstrates how React can be used to manage game state, handle user interactions, and dynamically update the UI.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🎮 Features
 
-## React Compiler
+* Interactive Tic Tac Toe board
+* Turn-based gameplay (Player X and Player O)
+* Winner detection logic
+* Game reset functionality
+* Instant UI updates using React state
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+🛠 Tech Stack
 
-## Expanding the ESLint configuration
+* React
+* Vite
+* JavaScript
+* CSS
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🚀 Getting Started
+
+1) Clone the repository
+
+```bash
+git clone https://github.com/gadilkartanishka/tic-tac-toe-react.git
+cd tic-tac-toe-react
+```
+
+2) Install dependencies
+
+```bash
+npm install
+```
+
+3) Run the development server
+
+```bash
+npm run dev
+```
+
+The app will run at:
+
+```
+http://localhost:5173
+```
+⚛️ React Concepts Used
+
+This project demonstrates:
+
+* Functional components
+* React state management
+* Event handling
+* Conditional rendering
+* Component-based architecture
+
+🎯 Learning Objectives
+
+* Understanding React component structure
+* Managing application state
+* Building interactive UI with React
+* Implementing game logic using React
+
